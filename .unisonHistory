@@ -1,0 +1,23 @@
+view base.List.reverse
+move.term base.List.foldl base.List.foldLeft
+view base.List.at
+help view
+find : [a] -> ( ([b], a) -> b)  -> b -> [b]
+find : [a] -> ( ([b], a) -> b) ) -> b -> [b]
+view 3
+find : [a] -> [a]
+find [a] -> [a]
+edit quickstart.dsort
+help
+help find
+ls: Nat -> a -> [a]
+help
+execute base.io.printLine "test  \
+execute base.io.printLine "test"
+execute base.io.printLine "test
+execute base.io.printLine [1, 2, 3]
+find base.io.printLine
+help
+find : .base.Nat -> [.base.Nat]
+find .base.Nat -> [.base.Nat]
+edit quickstart.dsort
